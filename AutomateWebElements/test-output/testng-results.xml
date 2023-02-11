@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-10T09:14:58 IST" name="Suite" finished-at="2023-02-10T09:16:17 IST" duration-ms="79096">
+    <groups>
+    </groups>
+    <test started-at="2023-02-10T09:14:58 IST" name="Test" finished-at="2023-02-10T09:16:17 IST" duration-ms="79096">
+      <class name="com.qa.test.IframeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.test.IframeTest@564fabc8]" started-at="2023-02-10T09:15:18 IST" name="setUp" finished-at="2023-02-10T09:15:21 IST" duration-ms="2518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testIframe1()[pri:3, instance:com.qa.test.IframeTest@564fabc8]" started-at="2023-02-10T09:15:21 IST" name="testIframe1" finished-at="2023-02-10T09:15:31 IST" duration-ms="9785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIframe1 -->
+        <test-method is-config="true" signature="ruturnToIndexPage()[pri:0, instance:com.qa.test.IframeTest@564fabc8]" started-at="2023-02-10T09:15:31 IST" name="ruturnToIndexPage" finished-at="2023-02-10T09:15:31 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ruturnToIndexPage -->
+        <test-method signature="testIframe2()[pri:4, instance:com.qa.test.IframeTest@564fabc8]" started-at="2023-02-10T09:15:31 IST" name="testIframe2" finished-at="2023-02-10T09:15:41 IST" duration-ms="9153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIframe2 -->
+        <test-method is-config="true" signature="ruturnToIndexPage()[pri:0, instance:com.qa.test.IframeTest@564fabc8]" started-at="2023-02-10T09:15:41 IST" name="ruturnToIndexPage" finished-at="2023-02-10T09:15:41 IST" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ruturnToIndexPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.IframeTest@564fabc8]" started-at="2023-02-10T09:15:41 IST" name="tearDown" finished-at="2023-02-10T09:15:42 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.IframeTest -->
+      <class name="com.qa.test.FrameTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.test.FrameTest@1d2adfbe]" started-at="2023-02-10T09:15:42 IST" name="setUp" finished-at="2023-02-10T09:15:44 IST" duration-ms="2349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLeftframe()[pri:5, instance:com.qa.test.FrameTest@1d2adfbe]" started-at="2023-02-10T09:15:44 IST" name="testLeftframe" finished-at="2023-02-10T09:15:55 IST" duration-ms="10602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeftframe -->
+        <test-method is-config="true" signature="ruturnToIndexPage()[pri:0, instance:com.qa.test.FrameTest@1d2adfbe]" started-at="2023-02-10T09:15:55 IST" name="ruturnToIndexPage" finished-at="2023-02-10T09:15:55 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ruturnToIndexPage -->
+        <test-method signature="testMiddleFrame()[pri:6, instance:com.qa.test.FrameTest@1d2adfbe]" started-at="2023-02-10T09:15:55 IST" name="testMiddleFrame" finished-at="2023-02-10T09:16:06 IST" duration-ms="10775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMiddleFrame -->
+        <test-method is-config="true" signature="ruturnToIndexPage()[pri:0, instance:com.qa.test.FrameTest@1d2adfbe]" started-at="2023-02-10T09:16:06 IST" name="ruturnToIndexPage" finished-at="2023-02-10T09:16:08 IST" duration-ms="1479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ruturnToIndexPage -->
+        <test-method signature="testRightFrame()[pri:7, instance:com.qa.test.FrameTest@1d2adfbe]" started-at="2023-02-10T09:16:08 IST" name="testRightFrame" finished-at="2023-02-10T09:16:16 IST" duration-ms="8347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRightFrame -->
+        <test-method is-config="true" signature="ruturnToIndexPage()[pri:0, instance:com.qa.test.FrameTest@1d2adfbe]" started-at="2023-02-10T09:16:16 IST" name="ruturnToIndexPage" finished-at="2023-02-10T09:16:17 IST" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ruturnToIndexPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.FrameTest@1d2adfbe]" started-at="2023-02-10T09:16:17 IST" name="tearDown" finished-at="2023-02-10T09:16:17 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.FrameTest -->
+      <class name="com.qa.test.AlertTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.test.AlertTest@399f45b1]" started-at="2023-02-10T09:14:58 IST" name="setUp" finished-at="2023-02-10T09:15:02 IST" duration-ms="3547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestALerts()[pri:0, instance:com.qa.test.AlertTest@399f45b1]" started-at="2023-02-10T09:15:02 IST" name="TestALerts" finished-at="2023-02-10T09:15:06 IST" duration-ms="4698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestALerts -->
+        <test-method is-config="true" signature="ruturnToIndexPage()[pri:0, instance:com.qa.test.AlertTest@399f45b1]" started-at="2023-02-10T09:15:06 IST" name="ruturnToIndexPage" finished-at="2023-02-10T09:15:07 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ruturnToIndexPage -->
+        <test-method signature="testConfirmAlert()[pri:1, instance:com.qa.test.AlertTest@399f45b1]" started-at="2023-02-10T09:15:07 IST" name="testConfirmAlert" finished-at="2023-02-10T09:15:12 IST" duration-ms="4665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfirmAlert -->
+        <test-method is-config="true" signature="ruturnToIndexPage()[pri:0, instance:com.qa.test.AlertTest@399f45b1]" started-at="2023-02-10T09:15:12 IST" name="ruturnToIndexPage" finished-at="2023-02-10T09:15:13 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ruturnToIndexPage -->
+        <test-method signature="testPromtAlert()[pri:2, instance:com.qa.test.AlertTest@399f45b1]" started-at="2023-02-10T09:15:13 IST" name="testPromtAlert" finished-at="2023-02-10T09:15:17 IST" duration-ms="4712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPromtAlert -->
+        <test-method is-config="true" signature="ruturnToIndexPage()[pri:0, instance:com.qa.test.AlertTest@399f45b1]" started-at="2023-02-10T09:15:17 IST" name="ruturnToIndexPage" finished-at="2023-02-10T09:15:18 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ruturnToIndexPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test.AlertTest@399f45b1]" started-at="2023-02-10T09:15:18 IST" name="tearDown" finished-at="2023-02-10T09:15:18 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.AlertTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

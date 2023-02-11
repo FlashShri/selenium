@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.qa.test.FrameTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testRightFrame"/>
+          <include name="ruturnToIndexPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.test.FrameTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

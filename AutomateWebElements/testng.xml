@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+	
+	<parameter name="browser" value="Chrome"></parameter>
+  <test thread-count="5" name="Test" parallel="tests">
+	  
+	  <classes>
+		<class name="com.qa.test.AlertTest"></class>
+		<class name="com.qa.test.IframeTest"></class>
+		<class name="com.qa.test.FrameTest"></class>
+	  </classes>
+	  
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
