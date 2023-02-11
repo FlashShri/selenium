@@ -1,5 +1,7 @@
 package com.ModernElements.BaseClass;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
@@ -10,11 +12,15 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import com.qa.PageClasses.LoginPage;
+import com.qa.utillity.Util;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 public static WebDriver driver;
 	
+
 @Parameters ("browser")
 @BeforeClass
 public void setUp(String browser) throws InterruptedException {
@@ -42,6 +48,22 @@ public void setUp(String browser) throws InterruptedException {
 	
 }
 
+@BeforeMethod
+public void loginSepts() throws InterruptedException {
+	LoginPage login = new LoginPage();
+	
+	login.inputUserName();
+	login.inputPassword();
+	Thread.sleep(2000);
+	login.clickOnLogin();
+	
+	
+}
+
+@AfterMethod
+public void afterM() {
+	System.out.println("this is after Method");
+}
 @AfterClass
 public void tearDown() {
 	driver.quit();
