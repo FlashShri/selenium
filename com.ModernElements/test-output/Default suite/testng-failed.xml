@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ModernElements.Tests.BrowserTest">
+      <class name="testsQA.LoginTest">
         <methods>
-          <include name="tearDown"/>
           <include name="runBrowser"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.ModernElements.Tests.BrowserTest -->
+      </class> <!-- testsQA.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
