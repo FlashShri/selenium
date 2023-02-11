@@ -17,7 +17,7 @@ public static WebDriver driver;
 	
 @Parameters ("browser")
 @BeforeClass
-public void setUp(String browser) {
+public void setUp(String browser) throws InterruptedException {
 	
 	if(browser.equalsIgnoreCase("Chrome")) {
 		WebDriverManager.chromedriver().setup();
@@ -35,10 +35,10 @@ public void setUp(String browser) {
 	}
 	
 	driver.manage().window().maximize();
-	driver.get("http://uitestingplayground.com/");
+	driver.get("https://www.saucedemo.com/");
 	driver.manage().deleteAllCookies();
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+	Thread.sleep(2000);
 	
 }
 
