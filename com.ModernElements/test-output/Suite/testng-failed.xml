@@ -4,13 +4,15 @@
   <parameter name="browser" value="Chrome"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testsQA.LoginTest">
+      <class name="testsQA.FliterTest">
         <methods>
-          <include name="runBrowser"/>
+          <include name="afterM"/>
           <include name="tearDown"/>
+          <include name="loginSepts"/>
+          <include name="selectAsAtoZ"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testsQA.LoginTest -->
+      </class> <!-- testsQA.FliterTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

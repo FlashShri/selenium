@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\shrik\git\selenium\com.ModernElements\testng.xml</span>
+                    <span>C:\Users\shrik\git\selenium\com.ModernElements\filtertest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testsQA.LoginTest" class="method navigator-link" hash-for-method="runBrowser">runBrowser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testsQA.FliterTest" class="method navigator-link" hash-for-method="selectAsAtoZ">selectAsAtoZ</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -122,14 +122,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testsQA.LoginTest</span>
+              <span class="class-name">testsQA.FliterTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runBrowser">
-                  </a> <!-- runBrowser -->
-                  <span class="method-name">runBrowser</span>
+                  <a name="selectAsAtoZ">
+                  </a> <!-- selectAsAtoZ -->
+                  <span class="method-name">selectAsAtoZ</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +137,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\shrik\git\selenium\com.ModernElements\testng.xml</span>
+            <span class="header-content">C:\Users\shrik\git\selenium\com.ModernElements\filtertest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -147,7 +147,7 @@
   &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testsQA.LoginTest&quot;/&gt;
+      &lt;class name=&quot;testsQA.FliterTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -189,9 +189,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'runBrowser')
-data.setCell(0, 2, 'testsQA.LoginTest')
-data.setCell(0, 3, 2730);
+data.setCell(0, 1, 'selectAsAtoZ')
+data.setCell(0, 2, 'testsQA.FliterTest')
+data.setCell(0, 3, 2443);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -222,19 +222,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testsQA.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testsQA.FliterTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(Chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginSepts</span>
+                <span class="method-start">7032 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">runBrowser</span>
-                <span class="method-start">48817 ms</span>
+                <span class="method-name">selectAsAtoZ</span>
+                <span class="method-start">9315 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">51555 ms</span>
+                <span class="method-start">11758 ms</span>
               </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterM</span>
+                <span class="method-start">11758 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

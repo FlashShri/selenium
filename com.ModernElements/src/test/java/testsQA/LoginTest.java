@@ -1,6 +1,7 @@
 package testsQA;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import com.ModernElements.BaseClass.BaseClass;
 import com.qa.PageClasses.LoginPage;
